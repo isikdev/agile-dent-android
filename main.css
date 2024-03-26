@@ -1,0 +1,31 @@
+body {
+    background-color: #046163;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    margin-top: 100px;
+}
+.card {
+    background-color: #409c91;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.btn-primary {
+    background-color: #046163;
+    border-color: #046163;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #034545;
+    border-color: #034545;
+}
+.logo {
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+}
